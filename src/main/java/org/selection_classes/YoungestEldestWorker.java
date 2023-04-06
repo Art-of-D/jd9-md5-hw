@@ -4,9 +4,9 @@ import java.util.Date;
 import java.util.Objects;
 
 public class YoungestEldestWorker {
-    String type;
-    String name;
-    Date birthday;
+    private String type;
+    private String name;
+    private Date birthday;
 
     public YoungestEldestWorker(String type, String name, Date birthday) {
         this.type = type;

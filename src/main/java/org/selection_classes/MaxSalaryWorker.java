@@ -3,8 +3,8 @@ package org.selection_classes;
 import java.util.Objects;
 
 public class MaxSalaryWorker {
-    String name;
-    Integer salary;
+    private String name;
+    private Integer salary;
 
     public MaxSalaryWorker(String name, Integer salary) {
         this.name = name;

@@ -3,8 +3,8 @@ package org.selection_classes;
 import java.util.Objects;
 
 public class ProjectPrices {
-    String name;
-    Integer price;
+    private String name;
+    private Integer price;
 
     public ProjectPrices(String name, Integer price) {
         this.name = name;

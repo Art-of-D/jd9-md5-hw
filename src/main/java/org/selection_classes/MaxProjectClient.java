@@ -3,8 +3,8 @@ package org.selection_classes;
 import java.util.Objects;
 
 public class MaxProjectClient {
-    String name;
-    Integer project_count;
+    private String name;
+    private Integer project_count;
 
     public MaxProjectClient(String name, Integer project_count) {
         this.name = name;

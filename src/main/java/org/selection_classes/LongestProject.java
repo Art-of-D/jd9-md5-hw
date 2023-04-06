@@ -3,8 +3,8 @@ package org.selection_classes;
 import java.util.Objects;
 
 public class LongestProject {
-    String name;
-    Integer month_count;
+    private String name;
+    private Integer month_count;
 
     public LongestProject(String name, Integer m_count) {
         this.name = name;
